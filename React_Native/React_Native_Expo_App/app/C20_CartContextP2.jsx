@@ -7,7 +7,7 @@ export default function C19_CartContextP2() {
   const { cartData } = useContext(CartContextConsumer);
 
   useEffect(() => {
-    console.log("THE DATA IN CART IS => ", cartData);
+    console.log("THE DATA IN CART -IS => ", cartData);
   }, [cartData]);
 
   return (
